@@ -5,7 +5,7 @@ import time
 from plyer import notification
 from threading import *
 
-class Student:
+class WaterRemainder:
 
     def __init__(self, root):
         # ==> Main Body of Root and Title <==
@@ -278,5 +278,5 @@ class Student:
                         time.sleep(39 * 60)
 
 root = Tk()
-ob = Student(root)
+ob = WaterRemainder(root)
 root.mainloop()
